@@ -47,10 +47,10 @@ var cmodal = {
 Toggle the modal window display.
 ```javascript
 
-  this.modal = new Modal({
-    state: false
-  });
-  this.modal.toggle()
+this.modal = new Modal({
+  state: false
+});
+this.modal.toggle()
 
 ```
 
