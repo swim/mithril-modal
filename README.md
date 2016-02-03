@@ -5,6 +5,7 @@ Another Mithril JS modal window component; written in ES6 and compiled with Babe
 Include, require or import the Modal class.
 
 ```javascript
+import Modal from ('./dist/m-modal.js')
 
 var modal = {
   controller: function(options) {
