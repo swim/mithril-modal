@@ -7,7 +7,20 @@ Include, require or import the Modal class.
 ```javascript
 import Modal from ('./dist/m-modal.js')
 
-var modal = {
+var example = {
+  controller: function() {
+    this.modal = new Modal({
+      state: false
+    });
+  },
+  view: function(ctrl) {
+    return [
+      m.component(cmodal, ctrl.modal)
+    ]
+  }
+}
+
+var cmodal = {
   controller: function(options) {
     this.component = options.component;
   },
@@ -21,19 +34,6 @@ var modal = {
     });
   }
 };
-
-var example = {
-  controller: function() {
-    this.modal = new Modal({
-      state: false
-    });
-  },
-  view: function(ctrl) {
-    return [
-      m.component(modal, ctrl.modal)
-    ]
-  }
-}
 
 ```
 
