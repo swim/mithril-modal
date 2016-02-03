@@ -1,5 +1,5 @@
 # mithril-modal
-Another Mithril JS modal window component; written in ES6 and compiled with Babel. This component has no dependencies outside of Mithril and aims to make no assumptions about CSS or transitions.
+Another Mithril JS modal window component; written in ES6 and compiled with Babel. This component has no dependencies outside of Mithril and aims to make no assumptions about CSS or transitions. When minified this component is around 1kb =D.
 
 ### Usage
 Include, require or import the Modal class.
